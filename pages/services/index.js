@@ -13,19 +13,9 @@ const Services = () => {
       <Circles />
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row gap-x-8">
-          <motion.div
-            initial="hidden"
-            animate="show"
-            exit="hidden"
-            variants={fadeIn("down", 0.6)}
-            className="w-full xl:max-w-[65%]"
-          >
-            {/* Slider */}
-            <ServiceSlider />
-          </motion.div>
 
-          {/* text */}
-          <div className="text-center flex xl:w-[30vw] flex-col lg:text-right mb-4 xl:mb-0">
+           {/* text */}
+           <div className="text-center flex xl:w-[30vw] flex-col lg:text-right mb-4 xl:mb-0">
             <motion.h2
               initial="hidden"
               animate="show"
@@ -46,6 +36,20 @@ const Services = () => {
               با برقراری تماس با ما از خدمات ما بیشتر مطلع بشوید
             </motion.p>
           </div>
+
+
+          <motion.div
+            initial="hidden"
+            animate="show"
+            exit="hidden"
+            variants={fadeIn("down", 0.6)}
+            className="w-full xl:max-w-[65%]"
+          >
+            {/* Slider */}
+            <ServiceSlider />
+          </motion.div>
+
+         
         </div>
       </div>
       <Bulb />

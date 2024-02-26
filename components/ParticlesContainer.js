@@ -12,7 +12,7 @@ const ParticlesContainer = () => {
 
   return (
     <Particles
-    className="w-full h-full absolute translate-z-0"
+      className="w-full h-full absolute translate-z-0"
       id="tsparticles"
       init={particlesInit}
       loaded={particlesLoaded}
@@ -30,64 +30,64 @@ const ParticlesContainer = () => {
               enable: false,
               mode: "push",
             },
-            onHover:{
-              enable:true,
-              mode:'repulse'
+            onHover: {
+              enable: true,
+              mode: "repulse",
             },
-            resize:true,
+            resize: true,
           },
-          modes:{
-            push:{
-              quantity:90
+          modes: {
+            push: {
+              quantity: 90,
             },
-            repulse:{
-              distance:200,
-              duration:0.4,
-            }
-          }
+            repulse: {
+              distance: 100,
+              duration: 0.4,
+            },
+          },
         },
-        particles:{
-          color:{
-            value:'#F6FDC3'
+        particles: {
+          color: {
+            value: "#F6FDC3",
           },
-          links:{
-            color:'#f5d393',
-            distance:150,
-            enable:true,
-            opacity:0.5,
-            width:1
+          links: {
+            color: "#f5d393",
+            distance: 150,
+            enable: true,
+            opacity: 0.5,
+            width: 1,
           },
-          collisions:{
-            enable:true,
+          collisions: {
+            enable: true,
           },
-          move:{
-            direction:'none',
-            enable:true,
-            outModes:{
-              default:'bounce'
+          move: {
+            direction: "none",
+            enable: true,
+            outModes: {
+              default: "bounce",
             },
-            random:false,
-            speed:1,
-            straight:false
+            random: false,
+            speed: 1,
+            straight: false,
           },
-          number:{
-            density:{
-              enable:true,
-              area:800
+          number: {
+            density: {
+              enable: true,
+              area: 800,
             },
-            value:80
+            value: 80,
           },
-          opacity:{
-            value:0.5,
+          opacity: {
+            value: 0.5,
           },
-          shape:{
-            type:'circle'
+          shape: {
+            type: "polygon",
           },
-          size:{
-            value:{min:1,max:5}
-          }
+          size: {
+            value: { min: 1, max: 5 },
+          },
         },
-        detectRetina:true,
+        detectRetina: true,
       }}
     />
   );
