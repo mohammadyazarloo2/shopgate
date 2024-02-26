@@ -17,10 +17,15 @@
 .swiper-rtl .swiper-button-prev:after {
   color: #f13024;
 }
+@font-face {
+  font-family: "click";
+  src: url("./iran/ttf/IRANSansWeb_Bold.ttf");
+}
 
 @layer base {
   body {
     @apply bg-secondary overflow-hidden leading-relaxed;
+    direction: rtl;
   }
   .page {
     @apply w-full h-screen overflow-hidden;
