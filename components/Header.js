@@ -16,11 +16,12 @@ const Header = () => {
           <Link href={'/'}>
             {" "}
             <Image
-              src={"/logo.png"}
+              src={"/logo4.png"}
               width={80}
               height={38}
               alt=""
               priority={true}
+              className="rounded-[50%]"
             />{" "}
           </Link>
           {/* Social */}

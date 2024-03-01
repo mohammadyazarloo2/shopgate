@@ -27,6 +27,9 @@
     @apply bg-secondary overflow-hidden leading-relaxed;
     direction: rtl;
   }
+  .bg-site2{
+    background-color: #1f2537;
+  }
   .page {
     @apply w-full h-screen overflow-hidden;
   }

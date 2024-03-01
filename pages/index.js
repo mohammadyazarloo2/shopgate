@@ -60,7 +60,7 @@ const Home = () => {
       {/* image */}
       <div className="w-[1200px] h-full absolute right-0 bottom-0">
         {/* bg img */}
-        <div className="bg-none xl:bg-explosion animate-pulse xl:bg-cover xl:bg-right xs:bg-no-repeat w-[200px] h-[200px] bottom-[10%] right-[30%] absolute mix-blend-color-dodge translate-z-0">
+        <div className="bg-none xl:bg-explosion opacity-100 rounded-[50%] xl:bg-cover xl:bg-right xs:bg-no-repeat w-[500px] h-[500px] bottom-[10%] right-[50%] animate-spin-slow bg-circleStar absolute mix-blend-color-dodge translate-z-0">
           {" "}
         </div>
         {/* particles */}
@@ -72,7 +72,7 @@ const Home = () => {
           animate="show"
           exit="hidden"
           transition={{ duration: 1, ease: "easeInOut" }}
-          className="w-full h-full flex items-end max-w-[637px] max-h-[578px] absolute bottom-0 lg:bottom-0 lg:left-[0%]"
+          className="w-full h-full flex items-end max-w-[637px] max-h-[578px] absolute bottom-0 lg:bottom-0 lg:left-[-50%]"
         >
           <Avatar />
         </motion.div>

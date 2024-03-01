@@ -13,6 +13,7 @@ import {
   FaReact,
   FaWordpress,
   FaFigma,
+  FaBootstrap,
 } from "react-icons/fa";
 
 import {
@@ -20,7 +21,10 @@ import {
   SiFramer,
   SiAdobexd,
   SiAdobephotoshop,
+  SiMui,
 } from "react-icons/si";
+
+import { DiMaterializecss,DiNodejs } from "react-icons/di";
 
 //  data
 const aboutData = [
@@ -32,11 +36,13 @@ const aboutData = [
         icons: [
           <FaHtml5 key={'1'} />,
           <FaCss3 key={'2'} />,
+          <FaBootstrap key={'8'} />,
+          <DiMaterializecss key={"9"} />,
           <FaJs key={'3'} />,
           <FaReact key={'4'} />,
           <SiNextdotjs key={'5'} />,
-          <SiFramer key={'6'} />,
-          <FaWordpress key={'7'} />,
+          <SiMui key={'10'} />,
+          <DiNodejs key={'11'} />,
         ],
       },
       {
