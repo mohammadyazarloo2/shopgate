@@ -65,18 +65,18 @@ const aboutData = [
     ],
   },
   {
-    title: "تجربیات",
+    title: "دوره ها",
     info: [
       {
-        title: "UX/UI Designer - XYZ Company",
+        title: "پروژه محوور",
         stage: "2012 - 2023",
       },
       {
-        title: "Web Developer - ABC Agency",
+        title: "ری اکت",
         stage: "2010 - 2012",
       },
       {
-        title: "Intern - DEF Corporation",
+        title: "نود جی اس",
         stage: "2008 - 2010",
       },
     ],
@@ -122,9 +122,7 @@ const About = () => {
             exit="hidden"
             className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-6 px-2 xl:px-0 text-right"
           >
-            10 years ago i began freelancering as a developer since then i have
-            done remote work for Agency counsulted for satrtups and collaborated
-            on digital products for business and consumer user.
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است 
           </motion.p>
           {/* counters */}
           <motion.div
@@ -166,9 +164,6 @@ const About = () => {
               <div className="relative flex-1">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2">
                   <CountUp start={0} end={8} duration={5} />
-                </div>
-                <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100%]">
-                  Wining awards
                 </div>
               </div>
             </div>

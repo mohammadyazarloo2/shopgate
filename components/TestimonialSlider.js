@@ -1,7 +1,7 @@
 // testimonial data
 const testimonialData = [
   {
-    image: "/me.jpg",
+    image: "/avatar.png",
     name: "محمد یازرلو",
     position: "مشتری",
     message:
@@ -9,17 +9,17 @@ const testimonialData = [
   },
   {
     image: "/t-avt-2.png",
-    name: "Jane Doe",
-    position: "Customer",
+    name: "لورم اپیسوم",
+    position: "مشتری",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+      "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است ",
   },
   {
-    image: "/t-avt-3.png",
+    image: "/me.jpg",
     name: "Jhon Doe",
     position: "Customer",
     message:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!",
+      "لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است ",
   },
 ];
 
