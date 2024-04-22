@@ -10,17 +10,17 @@ import {
 
 // nav data
 export const navData = [
-  { name: "home", path: "/", icon: <HiHome /> },
-  { name: "about", path: "/about", icon: <HiUser /> },
-  { name: "services", path: "/services", icon: <HiRectangleGroup /> },
-  { name: "work", path: "/work", icon: <HiViewColumns /> },
+  { name: "صفحه اصلی", path: "/", icon: <HiHome /> },
+  { name: "درباره ما", path: "/about", icon: <HiUser /> },
+  { name: "سرویس ها", path: "/services", icon: <HiRectangleGroup /> },
+  { name: "کار ها", path: "/work", icon: <HiViewColumns /> },
   {
-    name: "testimonials",
+    name: "طرح ها",
     path: "/testimonials",
     icon: <HiChatBubbleBottomCenterText />,
   },
   {
-    name: "contact",
+    name: "تماس با ما",
     path: "/contact",
     icon: <HiEnvelope />,
   },
@@ -51,7 +51,7 @@ const Nav = () => {
               {/* Tooltop */}
               <div className="absolute pr-14 right-0 hidden xl:group-hover:flex">
                 <div className="bg-white relative flex text-primary items-center p-[6px] rounded-[3px]">
-                  <div className="text-[12px] leading-none font-semibold capitalize"> {link.name} </div>
+                  <div className="text-[12px] leading-none font-semibold capitalize whitespace-nowrap"> {link.name} </div>
                   <div className="border-solid border-lg-white border-l-8 border-y-transparent border-y-[6px] border-r-0 absolute -right-2">
                 </div>
                 {/* triangle */}

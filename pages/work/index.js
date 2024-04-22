@@ -33,7 +33,7 @@ const Work = () => {
               variants={fadeIn("up", 0.2)}
               className="h2 xl:mt-8"
             >
-              پرژه ها <span className="text-accent">.</span>
+              پروژه ها <span className="text-accent">.</span>
             </motion.h2>
             <motion.p
               initial="hidden"

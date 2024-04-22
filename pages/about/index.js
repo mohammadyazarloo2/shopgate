@@ -52,33 +52,44 @@ const aboutData = [
     ],
   },
   {
-    title: "جوایز",
-    info: [
-      {
-        title: "Webby Awards - Honoree",
-        stage: "2011 - 2012",
-      },
-      {
-        title: "Adobe Design Achievement Awards - Finalist",
-        stage: "2009 - 2010",
-      },
-    ],
-  },
-  {
     title: "دوره ها",
     info: [
       {
+        title: " html & css ",
+        stage: "15 جلسه",
+      },
+      {
+        title: " سی اس اس پیشرفته",
+        stage: "30 جلسه",
+      },
+      {
+        title: "جاوا اسکریپت مقدماتی",
+        stage: "15 جلسه",
+      },
+      {
+        title: "جاوا اسکریپت پیشرفته",
+        stage: "15 جلسه",
+      },
+      {
+        title: "پی اچ پی مقدماتی",
+        stage: "15 جلسه",
+      },
+      {
+        title: "پی اچ پی پیشرفته",
+        stage: "15 جلسه",
+      },
+      {
+        title: " ری اکت مقدماتی",
+        stage: "15 جلسه",
+      },
+      {
+        title: "ری اکت پیشرفته",
+        stage: "20 جلسه",
+      },
+      {
         title: "پروژه محوور",
-        stage: "2012 - 2023",
-      },
-      {
-        title: "ری اکت",
-        stage: "2010 - 2012",
-      },
-      {
-        title: "نود جی اس",
-        stage: "2008 - 2010",
-      },
+        stage: "30 جلسه",
+      }
     ],
   },
 ];

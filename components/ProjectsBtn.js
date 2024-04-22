@@ -12,7 +12,7 @@ const ProjectsBtn = () => {
         className="relative w-[125px] h-[125px] flex justify-center items-center bg-circleStar bg-cover bg-center bg-no-repeat group"
       >
         <Image
-          src={"/click-texts.png"}
+          src={"/click-text2.png"}
           width={121}
           height={128}
           alt=""
